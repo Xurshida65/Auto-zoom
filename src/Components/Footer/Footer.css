@@ -1,0 +1,146 @@
+footer {
+  background-color: #111219;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.footer__items {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 260px;
+}
+
+.footer__left-logo {
+  width: 110px;
+  height: 80px;
+}
+
+.footer__left-title {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer__subtitle {
+  font-size: 14px;
+  color: #ffffff99;
+}
+
+.footer__left-btn {
+  padding: 25px 30px;
+  font-size: 18px;
+  background: transparent;
+  border-radius: 15px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.footer__left-btn:hover {
+  border: 1px solid red;
+  background: red;
+}
+
+.footer__right {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__right-items {
+    width: 100%;
+    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__right-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.footer__item-title {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer__item {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.footer__item h2 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer__social {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.footer__social a{
+    color: #ffffff99;
+}
+
+.footer__right-end {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__right-bottom {
+    padding: 30px 0 0 0;
+    border-top: 1px solid gray;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__right-bottom p {
+    font-size: 14px;
+    color: #ffffff99;
+    max-width: 200px;
+}
+
+@media (max-width: 900px) {
+    .footer__items {
+        flex-direction: column;
+    }
+    .footer__item {
+        max-width: 700px;
+        width: 100%;
+    }
+    .footer__left {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer__right-items {
+        flex-direction: column;
+    }
+}

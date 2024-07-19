@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.cars__filter {
+  display: flex;
+  background: #1e1f27;
+  position: relative;
+}
+
+.cars__filter-visible {
+  background: #272933;
+  color: white;
+  position: absolute;
+  padding: 15px;
+  border-radius: 6px;
+  border: none;
+  top: -30px;
+  z-index: 2;
+  box-shadow: 0 0 10px black;
+  display: none;
+}
+
+.close__cars-sidebar {
+  position: absolute;
+  top: -110px;
+  left: 20px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1200;
+}
+
+.settings__icon {
+  font-size: 20px;
+  transform: rotate(90deg);
+}
+
+.cars__sidebar {
+  background: #272933;
+  padding: 80px 20px;
+  color: white;
+  min-width: 400px;
+}
+
+.cars__sidebar-filter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.cars__sidebar-filter h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.cars__sidebar-filter select {
+  padding: 15px;
+  border-radius: 10px;
+  color: black;
+}
+
+.cars__sidebar-filter option {
+  color: black;
+}
+
+.cars__sidebar-filter div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cars__sidebar-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cars__sidebar-buttons button {
+  margin-top: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.cars__sidebar-filter-btn {
+  background-color: #00c600;
+  color: white;
+  border: none;
+}
+
+.cars__sidebar-reset {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.cars__right {
+  padding: 80px 20px;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  
+}
+
+.cars__right-title {
+  font-size: 14px;
+  color: #fff9;
+  font-weight: 400;
+}
+
+.cars__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cars__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 250px;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.5px solid gray;
+  background: linear-gradient(
+    338deg,
+    rgba(41, 41, 41, 0.266) 31%,
+    hsla(200, 1%, 59%, 0.152)
+  );
+  cursor: pointer;
+}
+
+.cars__link {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.cars__card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.cars__card-title {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  padding: 4px 10px;
+  border-bottom: 1px solid silver;
+}
+
+.cars__card-price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cars__card-price span {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+}
+
+.cars__card-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.cars__card-links a {
+  padding: 15px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+  color: white;
+}
+
+.whatsapp {
+  background-color: #00c600;
+}
+
+.telegram {
+  background-color: blue;
+}
+
+.none {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .cars__filter-visible {
+    display: block;
+    cursor: pointer;
+  }
+  .block {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 200px;
+    width: 100%;
+    height: 100%;
+    min-height: 250vh;
+    background: #272933;
+    padding: 80px 20px;
+    color: white;
+    z-index: 120;
+  }
+  .cars__sidebar {
+    display: none;
+  }
+}

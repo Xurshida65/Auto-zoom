@@ -1,0 +1,137 @@
+.big_contaner {
+    width: 100%;
+    background-color: #272933;
+}
+.carsContainer {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 30px 60px;
+    color: #FFF;
+    background-color: #272933;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin-top: 20px;
+    padding-top: 55px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.btnSee {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    width: 120px;
+}
+
+.btnSee:hover .icon {
+    transform: translateX(10px);
+}
+
+.icon {
+    font-size: 30px;
+    transition: 0.2s all linear;
+}
+
+.img {
+    width: 265px;
+    height: 260px;
+    object-fit: contain;
+    margin: 0 auto 20px;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiperSlide {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 23px;
+    padding: 25px 15px;
+    transition: 0.5s all linear;
+    box-sizing: border-box; 
+    cursor: pointer;
+}
+
+.swiperSlide:hover {
+    background: linear-gradient(160deg, #ffffff59 -10.06%, rgba(0, 0, 0, .178) 39.4%, hsla(0, 2%, 9%, .446)) !important;
+}
+
+.swiperSlide:hover .slide_car_title {
+    color: #FFF;
+}
+
+.slide_car_title {
+    border-bottom: 1.3px solid #ffffff63;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 7px;
+    transition: color 0.5s linear;
+}
+
+.slide_car_price {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.slide_car_price_usd {
+    color: #9e9a9a;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.renta_type {
+    font-size: 14px;
+    color: #b3b2b2;    
+}
+
+@media(max-width:768px) {
+    .carsContainer {
+        padding: 15px 30px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .btnSee {
+        font-size: 14px;
+        gap: 5px;
+    }
+    .swiperSlide {
+        padding: 15px 10px;
+    }
+}
+
+@media(max-width:450px) {
+    .title {
+        font-size: 20px;
+    }
+    .btnSee {
+        font-size: 12px;
+        gap: 3px;
+        width: 80px;
+    }
+    .icon {
+        font-size: 18px;
+    }
+}

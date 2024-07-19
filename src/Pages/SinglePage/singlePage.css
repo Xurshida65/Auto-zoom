@@ -1,0 +1,622 @@
+* {
+  color: #fff;
+}
+.wrapper {
+  background-color: #1e1f27;  
+}
+.details-container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.details-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 3rem 0;
+}
+.car-slider {
+  object-fit: contain;
+}
+.car-imageSlider {
+  display: flex;
+  flex-direction: column-reverse;
+  user-select: none;
+}
+.sliderImage {
+  border: 1px solid #69696b;
+  border-radius: 1rem;
+  cursor: pointer;
+  object-fit: contain;
+  padding: 0 0.2rem;
+}
+.sliderImage:last-child {
+  width: 150px;
+  height: 150px;
+  margin-left: 2rem;
+}
+
+.sliderImageBig {
+  width: 500px;
+  height: 400px;
+}
+.image-withDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageDetails {
+  width: 50%;
+}
+.carsDetails {
+  width: 48%;
+}
+.carsSocial {
+  margin: 2.5rem auto;
+  text-align: center;
+}
+.socialBtn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.socialBtn:hover {
+  opacity: 0.8;
+}
+.socialIcon {
+  font-size: 2rem;
+}
+.carsInfo {
+  width: 90%;
+  margin: 0.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.info {
+  font-size: 1.2rem;
+}
+.toHire {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid #69696b;
+}
+.deftext {
+  font-size: 1.5rem;
+}
+.inputs {
+  padding: 2rem;
+}
+.inputName {
+  background-color: #69696b;
+  padding: 1.2rem 1rem;
+  width: 95%;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+.inputName::placeholder {
+  color: #fff;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+.sendBtn {
+  background-color: red;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0.7rem;
+  margin-top: 0.5rem;
+}
+.infoWrapper {
+  width: 7rem;
+  height: 5.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.svg-image {
+  width: 1rem;
+  height: 2rem;
+}
+.svg-icons {
+  width: 30px;
+  height: 33px;
+  margin: 0 auto;
+}
+.carsCostTop {
+  display: flex;
+  justify-content: space-between;
+}
+.costPrice {
+  font-size: 1.4rem;
+}
+.depositText {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+  color: #7f8e92;
+}
+.depositText:first-child {
+  margin-bottom: 2.5rem;
+}
+.smallTextCost {
+  font-size: 1.1rem;
+}
+.paymentText {
+  margin: 0.4rem 0;
+  font-size: 0.8rem;
+  color: #7f8e92;
+  font-weight: 600;
+}
+.dailyCost {
+  font-size: 1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+  color: #7f8e92;
+}
+.carsCostBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.costBottoPrice {
+  font-size: 1.3rem;
+}
+.rightTop {
+  margin-bottom: 1.4rem;
+}
+.inputBox {
+  position: relative;
+}
+.inputSymbol {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  color: red;
+  font-size: 1.5rem;
+  user-select: none;
+}
+.more-info {
+  width: 90%;
+  margin: 4rem auto;
+}
+.infoText {
+  color: #7f8e92;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+.carouselTextWrapper {
+  margin-top: 2rem;
+}
+.carouselTitle {
+  font-size: 2.2rem;
+}
+.carouselInfo {
+  margin-top: 1rem;
+}
+.sliderInfo {
+  color: #69696b;
+  margin-bottom: 0.5rem;
+}
+.sliderTitle {
+  font-size: 1.2rem;
+}
+.similarCarImage {
+  width: 12rem;
+  height: 12rem;
+  object-fit: contain;
+}
+.similarsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+.similarCarsCard {
+  width: 250px;
+  height: 330px;
+  border: 1px solid #69696b;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 7px 15px 34px rgba(34, 60, 80, 0.11) inset;
+  -moz-box-shadow: 2px 7px 15px 34px rgba(34, 60, 80, 0.11) inset;
+  box-shadow: 2px 7px 15px 34px rgba(34, 60, 80, 0.11) inset;
+}
+.carsCardContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.carsCardName {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.carsCardPrice {
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.image-gallery-thumbnails-wrapper {
+  position: relative;
+  display: flex;
+}
+
+nav {
+  flex-grow: 1;
+  display: block;
+  justify-content: flex-end;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 40px;
+  width: 30px;
+}
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 1375px) {
+  .details-container {
+    max-width: 1100px;
+  }
+  .infoWrapper {
+    width: 5rem;
+    height: 5rem;
+  }
+  .costPrice {
+    font-size: 1.4rem;
+  }
+  .costBottoPrice {
+    font-size: 1.4rem;
+  }
+  .depositText:first-child {
+    margin-bottom: 3.5rem;
+  }
+  .carouselTitle {
+    font-size: 1.5rem;
+  }
+  .sliderTitle {
+    font-size: 1rem;
+  }
+  .socialBtn {
+    padding: 0.8rem 1.4rem;
+    border-radius: 0.8rem;
+  }
+  .socialIcon {
+    font-size: 1.7rem;
+  }
+   .swiper-wrapper {
+    gap: 2rem;
+  }
+  .carsCardName {
+    font-size: 1rem;
+}
+}
+@media (max-width: 1110px) {
+  .details-container {
+    max-width: 900px;
+  }
+  .infoWrapper {
+    width: 4.5rem;
+  }
+  .info {
+    font-size: 1rem;
+  }
+  .depositText {
+    font-size: 0.8rem;
+  }
+  .depositText:first-child{
+    margin-bottom: 4.5rem;
+  }
+  .carouselTitle {
+    font-size: 1.5rem;
+  }
+  .sliderTitle {
+    font-size: 1rem;
+  }
+  .inputs {
+    padding: 1rem;
+  }
+  .inputName {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+  .sendBtn {
+    padding: 0.8rem 1.4rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+  }
+  .toHire {
+    width: 70%;
+  }
+  .socialIcon {
+    font-size: 1.4rem;
+  }
+
+  .infoText {
+    font-size: 0.7rem;
+  }
+  .sliderImageBig {
+    width: 380px;
+    height: 330px;
+  }
+  .carsCardName {
+    font-size: 1rem;
+  }
+  .swiper-wrapper {
+    gap: 3rem;
+  }
+  .sliderImage:last-child {
+    margin-left: 3rem;
+  }
+  .deftext {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 900px) {
+  .details-container {
+    max-width: 800px;
+  }
+  .image-withDetails {
+    flex-direction: column;
+  }
+  .imageDetails {
+    width: 100%;
+  }
+  .carsDetails {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .depositText:first-child {
+    margin-bottom: 2.8rem;
+  }
+  .infoWrapper {
+    width: 8.5rem;
+  }
+  .toHire {
+    width: 55%;
+  }
+  .socialBtn {
+    padding: 0.8rem 1.8rem;
+  }
+  .similarCarsCard {
+    width: 300px;
+  }
+  .similarsWrapper {
+    gap: 1rem;
+  }
+  .sliderImageBig {
+    width: 500px;
+    height: 400px;
+  }
+   .swiper-wrapper{
+    gap: 1;
+  }
+}
+@media (max-width: 900px) {
+  .details-container {
+    max-width: 700px;
+  }
+      .swiper-wrapper {
+        gap: 0rem;
+    }
+
+  .infoWrapper {
+    width: 7.5rem;
+  }
+  .infoText {
+    font-size: 0.8rem;
+  }
+  .similarCarsCard {
+    width: 260px;
+    height: 350px;
+  }
+  .carouselTitle {
+    font-size: 2rem;
+  }
+  .sliderImage:last-child {
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 700px) {
+  .details-container {
+    max-width: 550px;
+  }
+  .sliderTitle {
+    font-size: 1rem;
+  }
+  .topLeft {
+    width: 35%;
+  }
+  .infoWrapper {
+    width: 5.5rem;
+  }
+  .socialBtn {
+    padding: 0.8rem 1.5rem;
+  }
+  .details-title {
+    padding: 2rem 0;
+  }
+  .similarCarsCard {
+    width: 240px;
+    height: 300px;
+  }
+  .similarCarsCard {
+    width: 45%;
+  }
+  .similarCarImage {
+    width: 15rem;
+    display: block;
+    margin: 0 auto;
+  }
+  .carouselTitle {
+    font-size: 1.4rem;
+  }
+  .sliderTitle {
+    font-size: 0.9rem;
+  }
+  .depositText {
+    width: 100px;
+  }
+  .depositText:first-child{
+    margin-bottom: 3.2rem;
+  }
+  .similarCarsCard {
+    width: 45%;
+    height: 350px;
+  }
+  .sliderImage:last-child {
+    margin-left: 2rem;
+  }
+  .details-title {
+    font-size: 2.5rem;
+  }
+  .sliderImageBig {
+    width: 450px;
+  }
+      .swiper-wrapper {
+        gap: 2rem;
+    }
+}
+@media (max-width: 550px) {
+  .details-container {
+    max-width: 450px;
+  }
+  .similarCarsCard {
+    width: 100%;
+  }
+  .infoWrapper {
+    width: 4.5rem;
+  }
+  .toHire {
+    width: 65%;
+  }
+  .socialBtn {
+    padding: 0.6rem 1.2rem;
+  }
+  .more-info {
+    margin: 2rem auto;
+  }
+  .sliderImageBig {
+    width: 400px;
+    height: 350px;
+  }
+  .sliderImage:last-child {
+    margin-left: 3rem;
+  }
+   .depositText:first-child {
+        margin-bottom: 4.8rem;
+    }
+        .details-title {
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+}
+@media (max-width: 450px) {
+  .details-container {
+    max-width: 400px;
+  }
+  .details-title {
+    font-size: 2rem;
+  }
+  .costPrice {
+    font-size: 1rem;
+  }
+  .costBottoPrice {
+    font-size: 1rem;
+  }
+  .dailyCost {
+    margin-bottom: 1rem;
+  }
+  .topLeft {
+    width: 40%;
+  }
+  .smallTextCost {
+    font-size: 1rem;
+  }
+  .inputName {
+    padding: 0.8rem;
+  }
+  .inputs {
+    padding: 0.5rem;
+  }
+    .topLeft {
+        width: 37%;
+    }
+        .dailyCost {
+        margin-bottom: 1.3rem;
+    }
+        .depositText:first-child {
+        margin-bottom: 4.3rem;
+    }
+        .swiper-wrapper {
+        gap: 4rem;
+    }
+}
+@media (max-width: 400px) {
+  .details-container {
+    max-width: 350px;
+  }
+      .details-title {
+        font-size: 1.6rem;
+    }
+  .carouselTitle {
+    font-size: 1.3rem;
+  }
+  .depositText {
+    font-size: 0.8rem;
+  }
+  .sliderTitle {
+    font-size: 0.8rem;
+  }
+  .costPrice {
+    font-size: 0.8rem;
+  }
+  .costBottoPrice {
+    font-size: 0.8rem;
+  }
+  .infoWrapper {
+    width: 3.5rem;
+  }
+  .paymentText {
+    font-size: 0.8rem;
+  }
+  .sliderInfo {
+    margin-bottom: 0.2rem;
+  }
+  .toHire {
+    width: 75%;
+  }
+  .carsSocial {
+    margin: 2rem auto;
+  }
+  .rightTop {
+    margin-bottom: 1.1rem;
+}
+      .swiper-wrapper {
+        gap: 5rem;
+    }
+        .sliderImage:last-child {
+        margin-left: 5rem;
+    }
+        .sliderImageBig {
+        height: 260px;
+    }
+}
+
+
+.toast-success {
+  background-color: #60a2ab !important; /* Light blue background */
+  color: black !important; /* Black text */
+}
+
+.toast-error {
+  background-color: #f57e90 !important; /* Light red background */
+  color: black !important; /* Black text */
+}
+
+.toast-body {
+  color: black !important; /* Black text */
+}

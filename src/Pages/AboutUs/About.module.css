@@ -1,0 +1,78 @@
+.big_container {
+    width: 100%;
+    background-image: url(../../assets/abaut.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.aboutContainer {
+    max-width: 1400px;
+    color: white;
+    padding: 50px 80px;
+    margin: 0 auto;
+}
+
+.link_to_home {
+    color: #fff9;
+    font-size: 14px;
+}
+.title {
+    margin: 70px 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+.text_box1 > h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.text_box1 > p {
+    font-size: 19px;
+    color: #cacaca;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+.title_text_box2 {
+    font-size: 28px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+.small_text_box {
+    padding: 10px 0;
+}
+.small_text_box > h4{
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.small_text_box > span {
+    color: #d8d8d8;
+    display: inline;
+    line-height: 1.5;
+}
+.text_box3 {
+    margin-top: 60px;
+}
+.small_text_box2 {
+    margin-bottom: 20px;
+}
+.small_text_box2 > h4 {
+    font-size: 23px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.small_text_box2 > span {
+    color: #d8d8d8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+@media(max-width:1200px) {
+    .aboutContainer {
+        padding: 50px 20px;
+    }
+}

@@ -1,0 +1,113 @@
+.big_container {
+    width: 100%;
+    background-color: #1e1f27;
+}
+.SportCarRentContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 80px 60px;
+    background-color: #1e1f27; 
+    color: #FFF;
+}
+.link_to_home, .link_to_home span {
+    color: #fff9;
+    font-size: 14px;
+}
+.title {
+    margin: 70px 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.img {
+    border-radius: 10px;
+    width: 360px;
+    height: 235px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    background: linear-gradient(62.37deg, #ffffff36 -7.76%, #0000000f 41.78%, #5050500d 102.46%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 380px;
+    width: 100%;
+}
+.text_box {
+    padding: 10px 30px;
+}
+.title_text_box {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+.sport_car_price {
+    padding: 15px 0;
+}
+.span_box {
+    border: 1px solid #11d198;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.sport_car_text {
+    padding: 15px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.package_inclusions {
+    margin-bottom: 28px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.icon_check {
+    font-size: 24px;
+}
+.btn_booking {
+    margin: 20px 0 30px;
+    width: 100%;
+    background-color: #fe363b;
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 20px 40px;
+    text-transform: uppercase;
+}
+@media(max-width:1200px) {
+    .SportCarRentContainer {
+        padding: 50px 20px 60px;
+    }
+    .boxes {
+        flex-wrap: wrap;
+    }
+    .box {
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:415px) {
+    .text_box {
+        padding: 10px 20px;
+    }
+}
+@media(max-width:389px) {
+    .img {
+        width: 300px;
+    }
+}
